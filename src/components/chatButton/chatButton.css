@@ -1,0 +1,32 @@
+.buttonChat{
+    width: 200px;
+    height: 40px;
+    background-color: #332E34;
+    border-color: white;
+    border-radius: 10px;
+    font-weight:bold;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.buttonChat:hover{
+    background-color: #1E1E1E;
+}
+
+@media (max-width: 767px) {
+
+    .buttonChat {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 10px;/* Colocar los elementos en línea */
+      box-sizing: border-box; /* Incluir el borde y el relleno en el ancho del elemento */
+      border: 1px solid rgb(255, 255, 255); /* Agregar borde para visualizar los elementos */
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+    }
+  
+  }

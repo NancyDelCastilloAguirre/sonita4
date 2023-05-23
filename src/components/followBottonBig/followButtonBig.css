@@ -1,0 +1,30 @@
+.buttonFollowss{
+    width: 255px!important;
+    height: 50px!important;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-color: white;
+    background-color: #262824!important;
+    color: white;
+    padding: 3px 18px;
+    font-size: 28px!important;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 90px!important;
+    margin-right: 35px;
+}
+
+.buttonFollowss:hover{
+    background-color: #2b2929;
+}
+
+@media only screen and (max-width: 768px) {
+    .buttonFollowss {
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 0;
+      font-size: 14px !important;
+      width: 155px!important;
+      height: 30px!important;
+    }
+}

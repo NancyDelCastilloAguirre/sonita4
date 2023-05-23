@@ -1,0 +1,20 @@
+{
+    "short_name":"SONA",
+    "name":"SONA",
+    "background_color": "#ffffff",
+    "categories":["Informativa", "Educativa"],
+    "descripcion":"Aplicacion SONA para cualquier escuela",
+    "dir":"ltr",
+    "display_override": ["standalone", "fullscreen"],
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"LOGO_BOB.png",
+            "type":"image/png",
+            "sizes":"20x20"
+        }
+    ],
+    "lang":"es-MX",
+    "prefer_related_application":false
+
+}

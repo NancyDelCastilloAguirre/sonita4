@@ -1,0 +1,17 @@
+/* Estilos originales */
+
+.modalbuttonRed{
+    background-color: #C1174F;
+    border: none;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    font-size: small;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .boton{
+        font-size: 12px;
+    }
+}

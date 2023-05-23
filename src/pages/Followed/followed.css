@@ -1,0 +1,39 @@
+.followedContainer{
+    display: flex;
+    width: 100%;
+    background-color: #4B0928;
+}
+
+.followed{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background-color: #1E1E1E;
+    color: white;
+    
+}
+
+.sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .followedContainer{
+        transform: scale(1);
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        container-type: inline-size;
+    }
+
+    .followed{
+        flex-direction: column;
+        padding-left: 0px;
+        margin: 0 auto;
+        padding: 0px;
+        height: 100%;
+        
+    }
+}

@@ -1,0 +1,33 @@
+.friend{
+    flex:70%;
+    background-color: #332E34;
+    
+}
+
+.friendWrapper{
+    padding: 20px;
+    background-color: #332E34;
+}
+
+@media (max-width: 768px) {
+    /* Ajusta el ancho del amigo al 100% */
+    .friend {
+        flex: 100%;
+        width: 100%;
+        container-type: inline-size;
+    }
+    
+    /* Ajusta el relleno del wrapper del amigo */
+    .friendWrapper {
+        width: 100vw;
+        height: 100vh;
+        background-color: #1E1E1E;
+    }
+    .friendList{
+        flex: 100%;
+        width: 100%;
+        margin-right: 4px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

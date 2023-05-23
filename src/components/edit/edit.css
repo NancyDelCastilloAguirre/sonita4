@@ -1,0 +1,97 @@
+.modalButtonIcon{
+    background-color: none;  
+}
+
+.modalbuttonRed{
+    width: 150px;
+    background-color: #C1174F;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.modalbuttonRedSmall{
+    width: 150px;
+    background-color: #C1174F;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.modalbuttonGrey{
+    width: 150px;
+    background-color: #6e696a;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.modalbuttonRed:hover{
+    background-color: #820f35;
+}
+
+.modalbuttonRedSmall:hover{
+    background-color: #820f35;
+}
+
+.modalbuttonGrey:hover{
+    background-color: #4f4c4d;
+}
+
+.modalheader{
+    background-color: #332E34;
+    border: none;
+}
+
+.modaltitle{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.modalbody{
+    background-color: #332E34;
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border: none; 
+}
+
+.modalfooter{
+    background-color: #332E34;
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border: none;    
+}
+
+.forminput{
+    border: none;
+    background-color: #332E34 !important;
+    color:white !important;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.forminputfile{
+    display: none;
+    padding: 0;
+}
+
+.formlabelfile{
+    font-size: medium;
+    font-weight: normal;
+    color: #687078;
+}

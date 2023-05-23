@@ -1,0 +1,125 @@
+.sidebar {
+    flex: 30%;
+    height: calc(100vh - 50px);
+    background-color: #4B0928;
+    display: none;
+    z-index: 9999;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: x-large;
+    color: white;
+}
+
+.sidebarListItem:hover{
+    background-color: #5b0c31;
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+.iconBOB{
+    height: 25px;
+    width: 30x; 
+    object-fit: fill;
+}
+
+
+.tab{
+    position: relative;
+    width: 400px;
+    height: 80px;
+    z-index: 1;
+    user-select: none;
+    
+  }
+  
+  .tab .menutoggle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    
+  
+  }
+  
+  .tab ul.menu{
+    position: absolute;
+    inset: 0;
+    background-color: #501a1a;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    box-shadow: 0 -15px 25px rgba(red, green, blue, alpha);
+  
+  }
+  .tab ul.menu li{
+    list-style: none;
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    .sidebar {
+      display: block;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+      .mobileVisible {
+        display: block;
+      }
+      .tab{
+        position: relative;
+        width: 200px;
+        height: 50px;
+        z-index: 1;
+        user-select: none;
+  
+      }
+      
+      .tab .menutoggle{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+      }
+      
+      .tab ul.menu{
+        position: absolute;
+        inset: 0;
+        background-color: #552027;
+        display: flex;
+        align-items: center;
+        gap: 55px;
+        box-shadow: 0 -15px 25px rgba(red, green, blue, alpha);
+      
+      }
+      .tab ul.menu li{
+        list-style: none;
+      }
+      
+      .mobileHidden {
+        display: none;
+      }
+      .iconBOB{
+        height: 23px;
+        width: 23x; 
+        object-fit: fill;
+        margin-bottom: 5px;
+    }
+      
+    }
+  

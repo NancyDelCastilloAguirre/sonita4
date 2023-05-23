@@ -1,0 +1,200 @@
+/* Estilos base */
+.post{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    background-color: #332E34;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postLink{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    align-items: center;
+}
+a:visited {
+    color:rgb(114, 97, 201); /* color para links visitados */
+}
+
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex; 
+    margin-left: 14px;
+}
+
+.postProfileImg{
+    width: 87px;
+    height: 87px;
+    border-radius: 50%
+}
+
+.postUsername{
+    font-size: 42px;
+    color: white;
+    margin: 0 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postDate{
+    font-size:20px;
+    color: white;
+    font-weight: normal;
+    color: #C0A8B4;  
+}
+
+
+.postAsunto{
+    font-size: large;
+    color: #C0A8B4;
+    font-weight: normal;
+    margin: 0 40px;
+}
+
+.postDescripcion{
+    font-size: x-large;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.postImg{
+    width: 100%;
+    max-height: 480px;
+    max-width: 920px;
+    padding-top: 20px;
+    padding-left: 125px;
+}
+
+.postBottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postBottomRight{
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.postBottomLeft{
+    align-items: center;
+    display: flex;
+    padding-left: 125px;
+    padding-top: 10px;
+}
+
+.postLikeCounter{
+    font-size: 20px;
+    color: white;
+}
+
+/* Consultas de medios para ajustar los estilos en diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+  .post {
+    flex-direction: column;
+  }
+  .postCenter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .postTopLeft {
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 100%;
+  }
+  .postProfileImg {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
+
+  .postCenter img {
+    max-width: 100%;
+    
+  }
+  
+  .postImg {
+    padding-left: 0;
+  }
+  
+  .postUsername {
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .postBottomLeft,
+  .postBottomRight {
+    padding: 10px;
+  }
+  .postLink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10px;
+    display: inline-block;
+    width: 250px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .postDate{
+    font-size: small;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .postUsername {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .postAsunto {
+    font-size: 16px;
+    margin: 0 20px;
+  }
+  
+  .postDescripcion {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .postLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .postDate{
+    font-size: small;
+  }
+  .postCenter img {
+    max-width: 100%;
+    
+  }
+}

@@ -1,0 +1,141 @@
+.profileAdm{
+    display: flex;
+    background-color: #4B0928;
+}
+
+.profileAdmRight{
+    flex: 100%;
+    background-color: #1E1E1E;
+}
+
+.profileAdmCover{
+    height: 320px;
+    position: relative;
+}
+
+.profileAdmCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileAdmUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileAdmInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.profileAdmInfoName{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profileAdmInfoDesc{
+    font-weight: 300;
+}
+
+.profileAdmRightBottom{
+    display: flex;
+    color:white;
+}
+
+.profileAdmUserImgModal{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .profileAdm {
+      transform: scale(1);
+      margin: 0 auto;
+      max-width: 1200px;
+      display: flex;
+      container-type: inline-size;
+      flex-direction: column;
+
+    }
+    .profileAdmRight {
+        transform: scale(1);
+        flex-direction: column;
+        padding-left: 0px;
+        margin: 0 auto;
+        padding: 0px;
+        height: 100%;
+      }
+      .profileAdmRight{
+        margin: 10px;
+    }
+
+  @media (max-width: 598px){
+    .profileAdmCover {
+        margin: 0px;
+        width: 300px auto;
+    }
+    .profileAdmCoverImg {
+        margin: 0;
+        width: 100;
+        height: 220px;
+        display: flex;
+    }
+    .profileAdmRight {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .profileAdmInfo {
+        margin: 0;
+        width: 100%;
+        font-size: large;
+    }
+    .profileAdmUserImg {
+        width: 155px;
+        height: 155px;
+        
+    }
+    .profileAdmRightBottom{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;*/
+        
+    }
+    .profileFeed{
+        display: flex;
+        margin-top: 210px;
+       
+    }
+    .profileRightbar{
+        position: absolute; 
+        flex-direction: column;
+   
+        /*height: calc(100vh - 700px);*/
+    }
+  }
+  @media (max-width: 280px){
+    .profileAdmUserImg{
+        width: 140px;
+        height: 140px;
+    }
+    .profileAdmInfoName{
+        margin-top: 0;
+        font-size: x-large;
+    }
+    
+  }
+}

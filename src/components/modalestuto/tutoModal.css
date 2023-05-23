@@ -1,0 +1,121 @@
+.modal-wrapper{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    box-shadow: 0 5px 0 rgb(0, 0, 0);
+    margin: 100px auto 0;
+    width: 50%;
+    border-radius: 10px;
+    z-index: 35;
+    display: none;
+    
+}
+
+
+.modalButtonIcon{
+    background-color: none;  
+}
+.contenedor{
+    position: relative;
+    padding-top: 56.25%;
+  }
+  .sidebarIcon{
+    margin-right: 15px;
+    color:white ;
+    
+}
+
+.react-player{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.modalbuttonRed{
+    width: 150px;
+    background-color: #C1174F;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.modalbuttonRedSmall{
+    width: 150px;
+    background-color: #C1174F;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.modalbuttonGrey{
+    width: 150px;
+    background-color: #6e696a;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight:bolder;
+    color: white;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.modalbuttonRed:hover{
+    background-color: #820f35;
+}
+
+.modalbuttonRedSmall:hover{
+    background-color: #820f35;
+}
+
+.modalbuttonGrey:hover{
+    background-color: #4f4c4d;
+}
+
+.modalheader{
+    background-color: #332E34;
+    border: none;
+}
+
+.modaltitle{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.modalbody{
+    background-color: #332E34;
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border: none; 
+    text-align: center;
+}
+
+.modalfooter{
+    background-color: #332E34;
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border: none;    
+}
+
+@media(max-width:1200px){
+    .modal-wrapper{
+        width: 95%;
+        position: fixed;
+    }
+}
+@media(max-width:700px){
+    .modalbody{height: 310px;}
+    .modaltitle{font-size: 14px;}
+    
+}

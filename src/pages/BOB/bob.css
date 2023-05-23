@@ -1,0 +1,151 @@
+.bobContainer{
+    display: flex;
+    width: 100%;
+    background-color: #4B0928;
+    
+}
+
+.bob{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background-color: #1E1E1E;
+    
+}.chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: #1E1E1E ;
+    color: white;
+}
+.chat{
+    display: flex;    
+    background-color: #1E1E1E ;
+}
+
+.chatSidebar {
+    flex: 1;
+  }
+
+.chatBox {
+    flex: 2.5;
+    color: white;
+    margin-left: 25px;
+}
+
+.chatBoxBottom2{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.MensajesUsuario{
+  align-items: flex-end;
+  text-align: left; 
+
+}
+
+.chatMessageInput{
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    background-color: #5A5A5A;
+    border-radius: 5px;
+    color: white;
+}
+
+.chatSubmit{
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F1B424;
+}
+
+.chatMenu{
+    flex: .8; 
+    color: white;
+}
+
+.chatBoxWrapper{
+  padding: 10px;
+  height: 100%;
+  
+}
+
+.chatMenuWrapper{
+  padding: 10px;
+  height: 100%;
+  border-left: 1px solid gray;
+}
+
+.chatSidebarWrapper{
+  height: 100%;
+  background-color: #4B0928;
+}
+
+.chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: #1E1E1E ;
+    color: white;
+}
+
+.chatMenuInput:focus{
+    outline: none;
+}
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  .img-float {
+    animation: float 2s ease-in-out infinite;
+  }
+
+  @media screen and (max-width: 768px) {
+    .bobContainer{
+      padding: 0px;
+      height: 100vh;
+      flex-direction: column;
+      width: 100%;
+    }
+    .bob{
+      transform: scale(1);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 20px;
+      height: 100vh;
+      
+    }
+    
+    .chatBoxBottom2{
+      position: fixed;
+      bottom: 0;
+      margin: 0 auto;
+      width: 100vw;
+      width: 100%;
+    }
+    .chat{
+      flex-direction: column;
+    }
+    .chatSidebar {
+      display: none;
+    }
+    .chatBox {
+      height: 100vh;
+      font-size: 14px;
+      width: 100vw;
+    }
+  }
