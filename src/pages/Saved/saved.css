@@ -14,3 +14,16 @@
 .savedWrapper{
     width: 100%;
 }
+
+@media (max-width: 767px) {
+
+    .saved {
+      fdisplay:flex;
+      height: 100vh;
+    }
+  
+    .savedWrapper {
+      padding: 10px;
+    }
+  
+  }
