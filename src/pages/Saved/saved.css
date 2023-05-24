@@ -18,7 +18,7 @@
 @media (max-width: 767px) {
 
     .saved {
-      fdisplay:flex;
+      display:flex;
       height: 100vh;
     }
   
